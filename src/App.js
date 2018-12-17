@@ -9,6 +9,7 @@ class App extends Component {
   };
 
   render() {
+      let number = 140
     return (
       <div>
 
@@ -20,7 +21,7 @@ class App extends Component {
         <h1>
           <pre>TwitterMessage</pre>
         </h1>
-        <TwitterMessage maxChars={140} />
+        <TwitterMessage maxChars={number} />
 
 
 
